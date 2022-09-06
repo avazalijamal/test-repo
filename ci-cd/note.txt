@@ -1,0 +1,5 @@
+ssh -i "ubuntu-server.pem" ubuntu@ec2-18-207-189-43.compute-1.amazonaws.com
+
+
+/home/ubuntu/.gitlab-runner/
+/home/ubuntu/.gitlab-runner/config.toml

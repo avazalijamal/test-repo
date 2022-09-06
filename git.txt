@@ -1,0 +1,41 @@
+git config --global user.name "Aliyev Avaz"
+git config --global user.email "avazalijamal@gmail.com"
+
+git init
+git init --bare --shared=all 
+
+git status
+git add test.txt
+git add .
+git commit -m "message"
+git log
+git diff commitID commitID2
+
+git checkout 3227776 -- .
+git checkout 3227776 -- test.txt
+
+git reset --hard commitID
+git reset --hard HEAD^
+
+git branch
+git branch newBranch
+git checkout newBranch
+git checkout -b newBranch
+git diff master newBranch
+git merge master newBranch
+git branch -m newBranch newBranch2
+git branch -D newBranch
+
+
+git clone url
+git remote add name url
+git remote
+git remote -v
+git remote rm name
+git push
+git push -u name branch
+git push -u name --all
+git fetch
+git merge
+git pull
+git pull origin master

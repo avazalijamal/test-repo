@@ -1,0 +1,8 @@
+domains/dev.webserver.erp-intel.com/public_html/app/test
+
+scp -P 740 backup.zip hewartru@hewart.ru:./www
+
+ssh webserver@webserver.erp-intel.com
+
+
+scp public.zip webserver@webserver.erp-intel.com:./domains/dev.webserver.erp-intel.com/public_html/app/test
